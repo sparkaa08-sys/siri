@@ -3,7 +3,7 @@ import { getRequest } from "@tanstack/react-start/server";
 import { z } from "zod";
 
 const APPS_SCRIPT_URL =
-"https://script.google.com/macros/s/AKfycbyMbQGp0_u0ookY615B1jMqyS79nZdxM2VXFyElzHgM9EFg7QdjcC-fu8FJXe1kL56c/exec";
+"https://script.google.com/macros/s/AKfycbwsgWf5co2unUewpJ9PUJNWjNlVrMPfLF0tr9jHnUW0JyzCi1yfNuWsbYf_bsqa0GIO/exec";
 const NAME_REGEX = /^[A-Za-z\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF\uFB50-\uFDFF\uFE70-\uFEFF\s'\-]+$/;
 const UAE_PHONE_REGEX = /^(?:\+9715\d{8}|05\d{8})$/;
 
