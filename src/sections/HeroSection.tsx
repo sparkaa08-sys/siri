@@ -153,13 +153,13 @@ export function HeroSection({ onPrimaryClick }: HeroProps) {
             >
               <div className="relative w-full max-w-md aspect-square flex items-center justify-center">
                 {/* الدائرة الصفراء خلف الشخصية */}
-                <div className="absolute w-72 h- sm:w-96 sm:h-96 rounded-full bg-amber-400 shadow-2xl shadow-amber-500/20 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" />
+                <div className="absolute w-72 h- sm:w-100 sm:h-100 rounded-full bg-white shadow-2xl shadow-amber-500/20 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" />
                 
                 {/* صورة الشخصية */}
                 <img
-                  src="/nn.jpg"
+                  src="/kk.png"
                   alt="منصة حماية المستهلك"
-                  className="relative z-10 w-full h-auto min-h-[420px] sm:max-h-[500px] object-contain drop-shadow-2xl"
+                  className="relative z-10 w-full h-auto min-h-[300px] sm:max-h-[200px] object-contain drop-shadow-2xl"
                 />
               </div>
             </motion.div>
