@@ -84,15 +84,16 @@ export function WhyUsSection({ onPrimaryClick }: WhyUsSectionProps) {
                 style={{ backgroundImage: `url('${w.bgImage}')` }}
               />
               
-              {/* طبقة التغميق (تم تخفيفها لزيادة وضوح الصور) */}
-              <div className="absolute inset-0 bg-gradient-to-t from-slate-navy/80 via-slate-navy/50 to-slate-navy/30 group-hover:from-slate-navy/70 group-hover:via-slate-navy/35 group-hover:to-slate-navy/10 transition-colors" />
+              {/* طبقة التغميق */}
+              <div className="absolute inset-0 bg-gradient-to-t from-slate-navy/90 via-slate-navy/70 to-slate-navy/40 group-hover:from-slate-navy/80 group-hover:via-slate-navy/50 group-hover:to-slate-navy/30 transition-colors" />
 
               {/* المحتوى المباشر للكارت */}
               <div className="relative z-10">
-                <div className="grid h-11 w-11 place-items-center rounded-xl bg-slate-navy/60 backdrop-blur-md text-gold-amber border border-white/20 transition-all duration-300 group-hover:bg-accent group-hover:text-white group-hover:border-accent group-hover:scale-110 shadow-lg">
-                  <w.icon className="h-5 w-5 shrink-0" aria-hidden="true" />
+                {/* الأيقونة باللون الأزرق مباشرة بدون مربع خلفية */}
+                <div className="mb-4 inline-block">
+                  <w.icon className="h-7 w-7 text-blue-400 group-hover:text-blue-300 drop-shadow-[0_2px_8px_rgba(59,130,246,0.5)] transition-all duration-300 group-hover:scale-110" aria-hidden="true" />
                 </div>
-                <h3 className="mt-4 text-base font-bold text-white transition-colors [text-shadow:_0_1px_3px_rgb(0_0_0_/_60%)]">
+                <h3 className="text-base font-bold text-white transition-colors [text-shadow:_0_1px_3px_rgb(0_0_0_/_60%)]">
                   {w.title}
                 </h3>
                 <p className="mt-2 text-xs leading-relaxed text-slate-100 font-medium [text-shadow:_0_1px_2px_rgb(0_0_0_/_80%)]">

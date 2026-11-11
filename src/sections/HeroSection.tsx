@@ -90,7 +90,7 @@ export function HeroSection({ onPrimaryClick }: HeroProps) {
                 className="inline-flex items-center gap-2 rounded-full border border-neutral-800 bg-neutral-900/80 px-3.5 py-1 text-xs font-medium text-neutral-300 backdrop-blur-sm"
               >
                 <ShieldCheck className="h-3.5 w-3.5 text-emerald-400" />
-                <span>منصة مستقلة لتوثيق الشكاوى — دولة الإمارات</span>
+                <span>منصة رقمية لتوثيق الشكاوى — دولة الإمارات</span>
               </motion.div>
 
               {/* العنوان والوصف */}
@@ -112,8 +112,7 @@ export function HeroSection({ onPrimaryClick }: HeroProps) {
                   variants={fadeInUp}
                   className="text-base sm:text-lg text-neutral-300 leading-relaxed font-normal max-w-xl"
                 >
-                  منصة رقمية مستقلة وغير تابعة لأي جهة حكومية لتوثيق وتنظيم الشكاوى ضد المنشآت التجارية، لتسهيل متابعتها وإيصالها للجهات المختصة بوضوح وسرعة.
-                </motion.p>
+منصة رقمية لتقديم شكاوى المستهلكين وملاحظاتهم بسهولة، مع تنظيم بيانات الشكوى وتسهيل متابعة الطلب من مكان واحد.                </motion.p>
               </div>
 
               {/* الأزرار */}
