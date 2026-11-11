@@ -22,7 +22,7 @@ export const Route = createFileRoute("/privacy")({
   component: PrivacyPage,
 });
 
-const CONTACT_EMAIL = "moetshakawi-uae@gmail.com";
+const CONTACT_EMAIL = "uaesupportpro@gmail.com";
 
 function PrivacyPage() {
   return (

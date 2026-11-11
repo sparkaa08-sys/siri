@@ -42,12 +42,12 @@ export function Footer() {
             <li><Link to="/terms" className="transition-colors hover:text-amber-700 focus-visible:text-amber-700">الشروط والأحكام</Link></li>
             <li>
               <a 
-                href="mailto:moetshakawi-uae@gmail.com" 
+                href="mailto:uaesupportpro@gmail.com" 
                 className="inline-flex items-center gap-2 transition-colors hover:text-amber-700 focus-visible:text-amber-700" 
                 dir="ltr"
               >
                 <Mail className="h-4 w-4 shrink-0 text-slate-800" aria-hidden="true" />
-                <span className="font-semibold text-slate-800">moetshakawi-uae@gmail.com</span>
+                <span className="font-semibold text-slate-800">uaesupportpro@gmail.com</span>
               </a>
             </li>
           </ul>
